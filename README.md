@@ -26,6 +26,8 @@ Cucumber standard report is saved in `build/reports/cucumber`
 If there will be any problem with generating report, please delete the previous report from the device using
 
     ./gradlew deleteExistingCucumberReports
+
+[example of the Cluecumber report] (Generated_cluecumber_report_example/index.html)
 ### To run all End-to-End tests written without Cucumber (e.g. unit tests)
     ./gradlew connectedCheck
     
