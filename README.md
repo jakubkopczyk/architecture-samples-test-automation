@@ -27,7 +27,8 @@ If there will be any problem with generating report, please delete the previous 
 
     ./gradlew deleteExistingCucumberReports
 
-[example of the Cluecumber report] (Generated_cluecumber_report_example/index.html)
+[example of the Cluecumber report](Generated_cluecumber_report_example/index.html)
+
 ### To run all End-to-End tests written without Cucumber (e.g. unit tests)
     ./gradlew connectedCheck
     
