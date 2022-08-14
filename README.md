@@ -7,7 +7,7 @@ New Features must be placed in `androidMockTest/assets/features/`. Subdirectorie
 
 Prepared steps are placed in `androidMockTest/java/<packageName>/test/steps`.
 
-Cucumber runner is plaed in `androidMockTest/java/<packageName>/test`.
+Cucumber runner is placed in `androidMockTest/java/<packageName>/test`.
 
 Emulator must be active or real device must be connected
 
@@ -23,6 +23,9 @@ To download and generate report use
     ./gradlew downloadAndGenerateReport    
 Cluecumber report is saved in `build/reports/cucumber/test`
 Cucumber standard report is saved in `build/reports/cucumber`
+If there will be any problem with generating report, please delete the previous report from the device using
+
+    ./gradlew deleteExistingCucumberReports
 ### To run all End-to-End tests written without Cucumber (e.g. unit tests)
     ./gradlew connectedCheck
     
