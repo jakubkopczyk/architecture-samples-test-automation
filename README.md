@@ -27,7 +27,7 @@ If there will be any problem with generating report, please delete the previous 
 
     ./gradlew deleteExistingCucumberReports
 
-[example of the Cluecumber report](Generated_cluecumber_report_example/index.html)
+[example of the Cluecumber report](https://rawcdn.githack.com/jakubkopczyk/architecture-samples-test-automation/81167278af2fdb27aa49aab5693ced1bd652c855/Generated_cluecumber_report_example/index.html)
 
 ### To run all End-to-End tests written without Cucumber (e.g. unit tests)
     ./gradlew connectedCheck
